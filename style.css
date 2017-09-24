@@ -41,6 +41,17 @@ body{
 }
 
 #showcase .button:hover{
-  background:#926239;
-  color:#fff;
+  background: #926239;
+  color: #fff;
+}
+
+/* ----------Media Queries---------- */
+
+@media screen and (min-width: 360px) and (max-width: 633px){
+    #showcase h1{
+        font-size: 30px;
+    }
+    #showcase p{
+        font-size: 15px;
+    }
 }
